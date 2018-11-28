@@ -1,0 +1,162 @@
+{
+	"id": "a85171d2-1e65-4645-85f6-9f6a25671da4",
+	"name": "TEST Produits ",
+	"allTests": [],
+	"timestamp": "2018-08-22T14:09:50.166Z",
+	"collection_id": "ad5b2de9-fa68-418b-8ee7-1b6b62e47511",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "ad5b2de9-fa68-418b-8ee7-1b6b62e47511",
+		"name": "TEST Produits ",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"742ce9c7-29e7-4c76-b4ba-2694f009ea6f",
+			"2d4b9cca-4941-47be-95e7-7ed57f0697cb",
+			"773df1ec-3493-48ce-94d5-660ba04e9b58"
+		],
+		"folders_order": [],
+		"owner": "5165067",
+		"permissions": {},
+		"favorite": false,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "Ordre Alphabétique",
+			"id": "742ce9c7-29e7-4c76-b4ba-2694f009ea6f",
+			"url": "localhost:9090/ProduitsAlph",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"86"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "86",
+			"totalRequestTime": "86",
+			"iterationResults": {}
+		},
+		{
+			"name": "Requête AdminProduits",
+			"id": "2d4b9cca-4941-47be-95e7-7ed57f0697cb",
+			"url": "localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"17"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "17",
+			"totalRequestTime": "17",
+			"iterationResults": {}
+		},
+		{
+			"name": "Ajout de produit gratuit",
+			"id": "773df1ec-3493-48ce-94d5-660ba04e9b58",
+			"url": "localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 406,
+				"name": "Not Acceptable",
+				"detail": {
+					"name": "Not Acceptable",
+					"detail": "The requested resource is only capable of generating content not acceptable according to the Accept headers sent in the request."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"8"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "8",
+			"totalRequestTime": "8",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 111,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Ordre Alphabétique",
+			"id": "742ce9c7-29e7-4c76-b4ba-2694f009ea6f",
+			"url": "localhost:9090/ProduitsAlph",
+			"time": "2018-08-22T14:09:50.166Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "Requête AdminProduits",
+			"id": "2d4b9cca-4941-47be-95e7-7ed57f0697cb",
+			"url": "localhost:9090/AdminProduits",
+			"time": "2018-08-22T14:09:50.166Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "Ajout de produit gratuit",
+			"id": "773df1ec-3493-48ce-94d5-660ba04e9b58",
+			"url": "localhost:9090/Produits",
+			"time": "2018-08-22T14:09:50.166Z",
+			"responseCode": {
+				"code": 406,
+				"name": "Not Acceptable",
+				"detail": {
+					"name": "Not Acceptable",
+					"detail": "The requested resource is only capable of generating content not acceptable according to the Accept headers sent in the request."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
